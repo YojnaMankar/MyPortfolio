@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height:100%;
+    width: 100%;
+}
+body {
+    overflow: hidden;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+#nav {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#nav a{
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 09%;
+}
+
+#nav i{
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-left: 25%;
+}
+
+#home {
+    height: 100%;
+    width:100%;
+    color: white;
+    padding-top: 18%;
+    padding-left: 08%;
+    font-weight: 600;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("pexels-negative-space-160107.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: static;
+}
+
+#homa>a>i{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+
+}
+
+#home h1{
+    font-size: 100px;
+}
+
+#home h2{
+    font-size: 105px;
+}
+
+#home span{
+    font-size: 30px;
+}
+
+#about {
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: medium;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url("pexels-lukas-574080.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: static;
+    padding-top: 08%;
+    padding-left: 08%;
+    padding-right: 60%;
+}
+
+#project {
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: medium;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("pexels-pixabay-39284.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: static;
+    padding-top: 10%;
+    padding-left: 08%;
+    padding-right: 45%;
+}
+
+#resume {
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: medium;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("pexels-monoar-rahman-114907.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: static;
+    display: flex;
+    padding-top: 04%;
+}
+
+#detail{
+    height: auto;
+    width: 400px;
+    font-size: 18px;
+    padding-top: 02%;
+    padding-left: 08%;
+}
+
+
+#detail a{
+    text-decoration: none;
+    color: white;
+}
+
+#objective  {
+    height: 300px;
+    font-size: 18px;
+    padding-top: 08.5%;
+    padding-left: 05%;
+    position: static;
+}
+
+#skill {
+    height: 300px;
+    display: flex;
+    padding-top: 08%;
+    justify-content:space-evenly
+}
+
+/* for mobail */
+@media only screen and (min-width:320px) and (max-width: 420px) {
+    
+    #nav a{
+        font-size: small;
+    }
+    
+    #home{
+        padding-top: 50%;
+    }
+    
+    #home h1{
+        font-size: 50px;
+    }
+    
+    #home h2{
+        font-size: 50px;
+    }
+
+    #home span{
+        font-size: 20px;
+    }
+    
+    #about{
+        padding-right: 15%;
+        font-size: 12px; 
+        padding-top: 15%;   
+    } 
+
+    #project{
+        padding-top: 15%;
+        padding-right: 08%;
+        font-size: 11px;
+    }
+
+    #detail,#objective,#skill,#detail a{
+        font-size: 11px;
+    }
+
+    #resume{
+        padding-top: 09%;
+    }
+
+    #detail{
+        padding-top: 08%;
+    }
+   }
+
+/* for tablet */
+@media only screen and (min-width:481px) and (max-width: 768px) {
+    
+    #nav a{
+        font-size: small;
+    }
+     
+    #home{
+        padding-top: 30%;
+    }
+    
+    #home h1{
+        font-size: 50px;
+    }
+    
+    #home h2{
+        font-size: 50px;
+    }
+
+    #home span{
+        font-size: 20px;
+    }
+    
+    #about{
+        padding-right: 15%;
+        font-size: 12px; 
+        padding-top: 15%;   
+    } 
+
+    #project{
+        padding-top: 15%;
+        padding-right: 08%;
+        font-size: 11px;
+    }
+
+    #detail,#objective,#skill,#detail a{
+        font-size: 11px;
+    }
+
+    #resume{
+        padding-top: 09%;
+    }
+
+    #detail{
+        padding-top: 08%;
+    }
+}
+
+
+/* for small screen laptop */
+@media only screen and (min-width:769px) and (max-width: 881px) {
+    
+    #nav a{
+        font-size: small;
+    }
+    
+    #home{
+        padding-top: 30%;
+    }
+    
+    #home h1{
+        font-size: 50px;
+    }
+    
+    #home h2{
+        font-size: 50px;
+    }
+
+    #home span{
+        font-size: 20px;
+    }
+    
+    #about{
+        padding-right: 15%;
+        font-size: 12px; 
+        padding-top: 15%;   
+    } 
+
+    #project{
+        padding-top: 15%;
+        padding-right: 08%;
+        font-size: 11px;
+    }
+
+    #detail,#objective,#skill,#detail a{
+        font-size: 11px;
+    }
+
+    #resume{
+        padding-top: 09%;
+    }
+
+    #detail{
+        padding-top: 08%;
+    }
+}
+
+@media only screen and (min-width: 881px) and (max-width:1024px) {
+    
+    #nav a{
+        font-size: small;
+    }
+    
+    #home{
+        padding-top: 20%;
+    }
+    
+    #home h1{
+        font-size: 50px;
+    }
+    
+    #home h2{
+        font-size: 50px;
+    }
+
+    #home span{
+        font-size: 20px;
+    }
+    
+    #about{
+        padding-right: 15%;
+        font-size: 12px; 
+        padding-top: 10%;
+        padding-right: 50%;   
+    } 
+
+    #project{
+        padding-top: 10%;
+        padding-right: 50%;
+        font-size: 11px;
+    }
+
+    #detail,#objective,#skill,#detail a{
+        font-size: 11px;
+    }
+
+    #resume{
+        padding-top: 06%;
+    }
+
+    #detail{
+        padding-top: 08%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1300px){
+    
+    #nav a{
+        font-size: medium;
+    }
+    
+    #home{
+        padding-top: 20%;
+    }
+    
+    #home h1{
+        font-size: 60px;
+    }
+    
+    #home h2{
+        font-size: 60px;
+    }
+
+    #home span{
+        font-size: 22px;
+    }
+    
+    #about{
+        padding-right: 15%;
+        font-size: 16px; 
+        padding-top: 08%;
+        padding-right: 50%;   
+    } 
+
+    #project{
+        padding-top: 06%;
+        padding-right: 50%;
+        font-size: 15px;
+    }
+
+    #detail,#objective,#skill,#detail a{
+        font-size: 16px;
+    }
+
+    #resume{
+        padding-top: 00%;
+    }
+
+    #detail{
+        padding-top: 08%;
+    }
+}
